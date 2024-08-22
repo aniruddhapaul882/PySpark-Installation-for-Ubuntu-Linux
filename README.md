@@ -1,3 +1,4 @@
+###  For Ubuntu(linux)
 #  Install Java Development Kit (JDK)
 First, update the package index by running:
 ```
