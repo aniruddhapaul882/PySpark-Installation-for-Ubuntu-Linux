@@ -1,14 +1,14 @@
 #  Install Java Development Kit (JDK)
-First, update the package index by running: <br>
-```shell
+First, update the package index by running:
+```
 $ sudo apt update
 ```
-Next, install the default JDK using the following command: <br>
+Next, install the default JDK using the following command:
 ```
 $ sudo apt install default-jdk
 ```
-#Verify the installation by checking the Java version: <br>
-$ java -version <br>
+Verify the installation by checking the Java version: <br>
+$ java -version
 
 Install Apache Spark <br>
 #Download the latest version of Apache Spark from the official website (https://spark.apache.org/downloads.html). At the time of writing, the latest version is Spark 3.5.2. Choose the package type as “Pre-built for Apache Hadoop 3.3 and later”. <br>
