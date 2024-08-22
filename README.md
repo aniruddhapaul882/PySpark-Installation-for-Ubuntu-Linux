@@ -1,7 +1,9 @@
 #  Install Java Development Kit (JDK)
 First, update the package index by running: <br>
-$ sudo apt update <br>
-#Next, install the default JDK using the following command: <br>
+```
+$ sudo apt update
+```
+Next, install the default JDK using the following command: <br>
 $ sudo apt install default-jdk <br>
 #Verify the installation by checking the Java version: <br>
 $ java -version <br>
