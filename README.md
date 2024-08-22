@@ -30,7 +30,7 @@ $ sudo nano /.bashrc
 Add this two lines to you ~/.bashrc file and save it
 ```
 ~ export SPARK_HOME=/opt/spark
-~	export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+~ export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 ```
 Source the updated ~/.bashrc file to apply the changes:
 ```
