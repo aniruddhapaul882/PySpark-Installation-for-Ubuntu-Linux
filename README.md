@@ -1,5 +1,5 @@
-###  For Ubuntu(linux)
-#  Install Java Development Kit (JDK)
+#  For Ubuntu(linux)
+###  Install Java Development Kit (JDK)
 First, update the package index by running:
 ```
 sudo apt update
@@ -12,7 +12,7 @@ Verify the installation by checking the Java version:
 ```
 java -version
 ```
-# Install Apache Spark
+### Install Apache Spark
 Download the latest version of Apache Spark from the official website (https://spark.apache.org/downloads.html). At the time of writing, the latest version is Spark 3.5.2. Choose the package type as “Pre-built for Apache Hadoop 3.3 and later”. <br>
 Use the following commands to download and extract the Spark archive:
 ```
@@ -23,7 +23,7 @@ Move the extracted folder to the /opt directory
 ```
 sudo mv spark-3.5.2-bin-hadoop3 /opt/spark
 ```
-#  Set Up Environment Variables
+###  Set Up Environment Variables
 Add the following lines to your ~/.bashrc file to set up the required environment variables:
 ```
 sudo nano /.bashrc
@@ -37,12 +37,12 @@ Source the updated ~/.bashrc file to apply the changes:
 ```
 source ~/.bashrc
 ```
-#  Install PySpark
+###  Install PySpark
 Install PySpark using pip:
 ```
 pip install pyspark
 ```
-# Verify PySpark Installation
+### Verify PySpark Installation
 Create a new Python file called pyspark_test.py and add the following code:
 ```python
 from pyspark.sql import SparkSession
